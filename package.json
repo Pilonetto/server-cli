@@ -11,6 +11,7 @@
     "fastify-jwt": "^1.0.0",
     "fastify-multipart": "^1.0.6",
     "fastify-mysql": "^0.3.0",
+    "fastify-static": "^2.7.0",
     "fastify-swagger": "^2.4.0",
     "moment": "^2.24.0",
     "pump": "^3.0.0"

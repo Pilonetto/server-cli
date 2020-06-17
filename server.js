@@ -24,6 +24,10 @@ fastify.register(require('fastify-mysql'), {
   connectionLimit: 5,
 });
 
+fastify.register(require('fastify-static'), {
+  root: path.join(__dirname, 'public'),
+});
+
 fastify.register(AutoLoad, {
   dir: path.join(__dirname, 'routes'),
   options: { prefix: '/v1' },
